@@ -15,7 +15,7 @@ $(".btn").on("click", function(event) {
 })
 
 function startGame(){
-    $("html").on("keydown", function() {
+    $("html").on("keydown touchstart", function() {
         if (!gameOn) {
             correctAnswer = [];
             gameOn = true;
